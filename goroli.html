@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goroli — Encuentra, conoce y haz nuevos amigos</title>
+  <meta name="description" content="Descarga Goroli gratis. Únete a nuestra sociedad de gente inquieta con ganas de conocer amigos nuevos y pasar buenos ratos.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <img src="images/favicon.png" alt="edhom.cat">
+        <span data-i18n="navBrand">edhom</span><span data-i18n="navBrandAccent">.cat</span>
+      </a>
+      <div class="navbar__actions">
+        <div class="lang-switch" role="group" aria-label="Idioma">
+          <button data-lang="es" class="active">ES</button>
+          <button data-lang="ca">CA</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- App Hero -->
+  <section class="app-hero">
+    <div class="container app-hero__inner">
+      <div class="app-hero__info">
+        <div class="app-hero__icon-row animate-in">
+          <img src="images/icon.png" alt="Goroli" class="app-hero__icon">
+          <h1 class="app-hero__name">Goroli</h1>
+        </div>
+        <p class="app-hero__tagline animate-in delay-1" data-i18n="appTagline">
+          Encuentra, conoce y haz nuevos amigos
+        </p>
+        <p class="app-hero__desc animate-in delay-2" data-i18n="appDesc">
+          Únete a Goroli, nuestra sociedad de gente inquieta con ganas de conocer amigos nuevos y pasar buenos ratos. Elige en el mapa, filtra tus preferencias y selecciona con quien quieres pasar un buen rato.
+        </p>
+        <a href="downloads/Goroli.apk" class="btn-download animate-in delay-3" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>
+            <span data-i18n="appDownload">Descargar APK</span><br>
+            <span class="btn-download__sub" data-i18n="appDownloadSub">Android</span>
+          </span>
+        </a>
+      </div>
+      <div class="app-hero__visual animate-in delay-2">
+        <img src="images/feature-nearby.png" alt="Goroli — Find nearby people" class="app-hero__illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="container">
+      <div class="features__header">
+        <p class="section-label" data-i18n="featuresLabel">Funcionalidades</p>
+        <h2 class="section-title" data-i18n="featuresTitle">¿Qué puedes hacer con Goroli?</h2>
+      </div>
+      <div class="features__grid">
+
+        <!-- Feature 1: Nearby -->
+        <div class="feature-card observe-animate">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="feat1Title">Personas cercanas</h3>
+          <p class="feature-card__desc" data-i18n="feat1Desc">En el mapa verás a otros usuarios localizados de forma aproximada, siempre con la información personal semioculta.</p>
+        </div>
+
+        <!-- Feature 2: Chat -->
+        <div class="feature-card observe-animate">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="feat2Title">Chat y amistad</h3>
+          <p class="feature-card__desc" data-i18n="feat2Desc">Solicita amistad para ver el perfil completo. Si la otra persona acepta, podréis chatear y ver la ubicación real.</p>
+        </div>
+
+        <!-- Feature 3: Real meetings -->
+        <div class="feature-card observe-animate">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="feat3Title">Encuentros reales</h3>
+          <p class="feature-card__desc" data-i18n="feat3Desc">Si después de unos mensajes encajáis, os podéis ver al momento y dedicar un tiempo a interactuar en la vida real.</p>
+        </div>
+
+        <!-- Feature 4: Privacy -->
+        <div class="feature-card observe-animate">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="feat4Title">Privacidad total</h3>
+          <p class="feature-card__desc" data-i18n="feat4Desc">Nadie te verá ni en ubicación ni en datos al 100% si tú no lo aceptas como amigo. Total discreción garantizada.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="screenshots">
+    <div class="container">
+      <div class="screenshots__header">
+        <p class="section-label" data-i18n="screenshotsLabel">Capturas</p>
+        <h2 class="section-title" data-i18n="screenshotsTitle">Así se ve Goroli</h2>
+      </div>
+      <div class="screenshots__gallery">
+        <!--
+          ============================================
+          CÓMO AÑADIR CAPTURAS DE PANTALLA:
+          ============================================
+          1. Guarda las imágenes en la carpeta images/screenshots/
+          2. Sustituye cada bloque <div class="screenshot-placeholder"> por:
+             <img src="images/screenshots/captura1.png" alt="Descripción">
+          3. Puedes añadir tantas como quieras.
+          ============================================
+        -->
+        <div class="screenshot-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span data-i18n="screenshotPlaceholder">Captura</span> 1
+        </div>
+        <div class="screenshot-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span data-i18n="screenshotPlaceholder">Captura</span> 2
+        </div>
+        <div class="screenshot-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span data-i18n="screenshotPlaceholder">Captura</span> 3
+        </div>
+        <div class="screenshot-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span data-i18n="screenshotPlaceholder">Captura</span> 4
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2 data-i18n="ctaTitle">No esperes más y aprovecha tu momento</h2>
+      <p data-i18n="ctaDesc">Bienvenido a la comunidad Goroli. Descarga gratis y empieza a conectar.</p>
+      <a href="downloads/Goroli.apk" class="btn-download" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span>
+          <span data-i18n="appDownload">Descargar APK</span><br>
+          <span class="btn-download__sub" data-i18n="appDownloadSub">Android</span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copy" data-i18n="footerCopy">© 2025 edhom.cat — Todos los derechos reservados</span>
+      <span class="footer__brand">
+        <img src="images/favicon.png" alt="">
+        edhom.cat
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

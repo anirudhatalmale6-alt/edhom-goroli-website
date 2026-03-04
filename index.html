@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>edhom.cat — Descargas</title>
+  <meta name="description" content="Aplicaciones y herramientas gratuitas desarrolladas con cuidado, listas para descargar.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <img src="images/favicon.png" alt="edhom.cat">
+        <span data-i18n="navBrand">edhom</span><span data-i18n="navBrandAccent">.cat</span>
+      </a>
+      <div class="navbar__actions">
+        <div class="lang-switch" role="group" aria-label="Idioma">
+          <button data-lang="es" class="active">ES</button>
+          <button data-lang="ca">CA</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__content">
+      <div class="hero__badge animate-in">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span data-i18n="heroBadge">Código libre y gratuito</span>
+      </div>
+      <h1 class="animate-in delay-1">
+        <span data-i18n="heroTitle">Descargas</span> <span class="accent" data-i18n="heroTitleAccent">gratuitas</span>
+      </h1>
+      <p class="hero__subtitle animate-in delay-2" data-i18n="heroSubtitle">
+        Aplicaciones y herramientas desarrolladas con cuidado, listas para descargar e instalar en tu dispositivo.
+      </p>
+    </div>
+  </section>
+
+  <!-- Downloads -->
+  <section class="downloads">
+    <div class="container">
+      <p class="section-label" data-i18n="downloadsLabel">Aplicaciones</p>
+      <h2 class="section-title" data-i18n="downloadsTitle">Descargas disponibles</h2>
+
+      <div class="downloads__grid">
+        <!-- Goroli card -->
+        <a href="goroli.html" class="app-card observe-animate">
+          <img src="images/icon.png" alt="Goroli" class="app-card__icon">
+          <h3 class="app-card__name">Goroli</h3>
+          <p class="app-card__desc" data-i18n="goroliDesc">Red social para encontrar, conocer y hacer nuevos amigos cerca de ti.</p>
+          <span class="app-card__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            <span data-i18n="goroliTag">Android</span>
+          </span>
+        </a>
+
+        <!-- Placeholder for future apps -->
+        <div class="app-card app-card--placeholder observe-animate">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          <p data-i18n="placeholderText">Más aplicaciones próximamente</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copy" data-i18n="footerCopy">© 2025 edhom.cat — Todos los derechos reservados</span>
+      <span class="footer__brand">
+        <img src="images/favicon.png" alt="">
+        edhom.cat
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
